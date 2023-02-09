@@ -45,7 +45,8 @@ void lexical(string expression){
 
 int main(){
 
-string expression="y=6+3";
+string expression="";
+cin>>expression;
 lexical(expression);
 
 }
